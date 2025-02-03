@@ -81,7 +81,7 @@ function createRemoveButton(item) {
         item.querySelector(".style-scope .ytd-playlist-video-list-renderer #button").click();
         setTimeout(() => {
             document.querySelector("#items > ytd-menu-service-item-renderer:nth-child(3) > tp-yt-paper-item").click();
-        }, 250);
+        }, 100);
     });
 }
 
